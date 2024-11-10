@@ -66,7 +66,13 @@
   <!--       <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
         <a class="footer-link" href="https://twitter.com/">Twitter</a>
         <a class="footer-link" href="https://www.appbrewery.co/">Website</a> -->
-        <p class="prava">© 2022 Miroslav Zeljković.</p>
+        <p class="prava">© <span id="year"></span> Miroslav Zeljković.</p>
+
       </div>
+
+        <script>
+          document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+
   </body>
 </html>
