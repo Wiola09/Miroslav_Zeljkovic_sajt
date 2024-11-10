@@ -136,5 +136,18 @@ p {
     height: 400px;
     width: 400px;
   }
+  .prava {
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .prava span {
+    font-weight: bold;
+    color: #333;
+  }
+
 }
 
